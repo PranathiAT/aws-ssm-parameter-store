@@ -27,10 +27,3 @@ parameters = [
 ]
 
 
-nvironment=CART_HOST=
-Environment=CART_PORT=8080
-Environment=USER_HOST=
-Environment=USER_PORT=8080
-Environment=AMQP_HOST=
-Environment=AMQP_USER=roboshop
-Environment=AMQP_PASS=
