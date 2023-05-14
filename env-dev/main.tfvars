@@ -13,4 +13,24 @@ parameters = [
   {name: "dev.cart.redis_host",value = "redis-dev.pdevops.online"},
   {name: "dev.cart.catalogue_host",value = "catalogue-dev.pdevops.online"},
   {name: "dev.cart.catalogue_port",value = "8080"},
+  {name: "dev.shipping.cart_endpoint",value = "cart-dev.pdevops.online:8080"},
+  {name: "dev.shipping.db_host",value = "mysql-dev.pdevops.online"},
+  {name: "dev.shipping.db_user",value = "root"},
+  {name: "dev.shipping.db_password",value = "RoboShop@1"},
+  {name: "dev.payment.cat_host",value = "cart-dev.pdevops.online"},
+  {name: "dev.payment.cart_port",value = "8080"},
+  {name: "dev.payment.user_host",value = "user-dev.pdevops.online"},
+  {name: "dev.payment.user_port",value = "8080"},
+  {name: "dev.payment.amqp_host",value = "rabbitmq-dev.pdevops.online"},
+  {name: "dev.payment.amqp_user",value = "roboshop"},
+  {name: "dev.payment.amqp_pass",value = "roboshop123"},
 ]
+
+
+nvironment=CART_HOST=
+Environment=CART_PORT=8080
+Environment=USER_HOST=
+Environment=USER_PORT=8080
+Environment=AMQP_HOST=
+Environment=AMQP_USER=roboshop
+Environment=AMQP_PASS=
