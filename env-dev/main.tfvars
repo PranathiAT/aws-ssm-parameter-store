@@ -29,5 +29,7 @@ parameters = [
 passwords = [
   {name: "dev.payment.amqp_pass",value = "roboshop123"},
   {name: "dev.shipping.db_password",value = "RoboShop@1"},
+  {name: "dev.docdb.db_user",value = "roboshop"},
+  {name: "dev.docdb.db_pass",value = "roboshop123456"},
 ]
 
