@@ -14,7 +14,7 @@ parameters = [
   {name: "dev.cart.catalogue_port",value = "80"},
   {name: "dev.shipping.cart_endpoint",value = "cart-dev.pdevops.online:80"},
   {name: "dev.rds.db_host",value = "rds-dev-rds.cluster-cuikvcip0m6b.us-east-1.rds.amazonaws.com"},
-  {name: "dev.rds.db_user",value = "root"},
+  {name: "dev.shipping.db_user",value = "root"},
   {name: "dev.payment.cart_host",value = "cart-dev.pdevops.online"},
   {name: "dev.payment.cart_port",value = "8080"},
   {name: "dev.payment.user_host",value = "user-dev.pdevops.online"},
@@ -28,7 +28,7 @@ parameters = [
 
 passwords = [
   {name: "dev.payment.amqp_pass",value = "roboshop123"},
-  {name: "dev.rds.db_password",value = "RoboShop@1"},
+  {name: "dev.shipping.db_password",value = "RoboShop@1"},
   {name: "dev.docdb.db_user",value = "roboshop"},
   {name: "dev.docdb.db_pass",value = "roboshop123456"},
   {name: "dev.rds.db_user",value = "roboshop"},
