@@ -37,6 +37,7 @@ passwords = [
   {name: "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-cuikvcip0m6b.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
   {name: "dev.user.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-cuikvcip0m6b.us-east-1.docdb.amazonaws.com:27017/user?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
 
+
 ]
 
 
