@@ -11,6 +11,7 @@ parameters = [
   {name: "prod.catalogue.documentdb",value = "DOCUMENTDB=true"},
   {name: "prod.user.redis_host",value = "redis-prod-elasticache.ralt9t.ng.0001.use1.cache.amazonaws.com" },
   {name: "prod.user.mongo",value = "DOCUMENTDB=true"},
+  {name: "prod.user.documentdb",value = "true"},
   {name: "prod.user.mongo_endpoint",value = "mongodb-prod.pdevops.online"},
   {name: "prod.cart.redis_host",value = "redis-prod-elasticache.ralt9t.ng.0001.use1.cache.amazonaws.com" },
   {name: "prod.cart.catalogue_host",value = "catalogue-prod.pdevops.online"},
